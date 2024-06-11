@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F0F0;
+    color: black;
+    font-family: "Alfabet";
+}
+
+#start {
+    background-color: #FFE000;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start #text {
+    font-family: "Alfabet";
+    font-size: 100px;
+}
+
+
+
+/* HEADER */ 
+header {
+    background-color: #F0F0F0;
+    border-bottom: solid 1px black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 60px;
+    z-index: 999;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.indexButton {
+    font-family: "Gyst Variable";
+    align-content: center;
+    font-size: 60px;
+    align-self: flex-start;
+    background-color: rgba(20, 20, 20, 0);
+    border: none;
+    cursor: pointer;
+    font-style: normal;
+}
+
+.indexButton:hover {
+    cursor: pointer;
+    font-style: italic;
+}
+
+.button-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 60px;
+    padding: 6px;
+}
+
+.navButton {
+    font-family: "Alfabet";
+    font-size: 16px;
+    border-radius: 60px;
+    color: #949494;
+    background: none;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+
+.navButton:hover {
+    color: black;
+    background-color: #ffe10057;
+}
+
+.navButton:active, .active {
+    color: black;
+    background-color: #FFE000;
+}
+
+
+
+/*CATEGORIA*/
+main {
+    padding-top: 93px;
+    height: 100vh;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+img.image {
+    width: auto;
+    height: 36px; 
+    padding: 0;
+    margin: 0;
+    object-fit: contain;
+    display: block;
+}
+
+.image:hover {
+    filter: none !important;
+    opacity: 1 !important;
+}
+
+.fixed-text {
+    font-family: "Alfabet";
+    font-weight: 20%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12vw;
+    padding: 20px 60px;
+    border-radius: 5px;
+    z-index: -1;
+}
