@@ -85,7 +85,7 @@ async function run() {
         const ora = parseInt(exif.Ora.H, 10);
         const container = document.getElementById(ora);
 
-        const imagePath = "./assets/imgs/img_256/" + data[i].FileName + ".JPG";
+        const imagePath = "./assets/imgs/img_256/" + data[i].FileName + ".jpg";
 
         output += "<div class='image-container'>";
         output += "<img src='" + imagePath + "' alt='Imm' style='filter: grayscale(100%); opacity: " + convertISOtoOpacity(exif.ISO) + ";' class='image'>";
