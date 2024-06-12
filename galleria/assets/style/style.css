@@ -86,7 +86,7 @@ header {
 
 
 
-/*CATEGORIA*/
+/*MAIN*/
 main {
     margin-top: 85px;
     height: 100vh;
@@ -95,7 +95,7 @@ main {
     left: 0;
     right: 0;
     display: flex;
-    flex-wrap: wrap; /* Permette ai figli di andare a capo */
+    flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
 }
