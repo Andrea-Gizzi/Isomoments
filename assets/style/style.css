@@ -66,7 +66,6 @@ header {
 .indexButton:hover {
     background: black;
     cursor: pointer;
-    font-style: italic;
 }
 
 .button-block {
