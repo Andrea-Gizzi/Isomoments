@@ -118,7 +118,7 @@
                     "width": 515,
                     "height": 831
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 86.3
             },
             {
@@ -277,7 +277,7 @@
                     "width": 518,
                     "height": 502
                 },
-                "label": "bowl",
+                "label": "ciotola",
                 "prob": 83.1
             },
             {
@@ -792,7 +792,7 @@
                     "width": 652,
                     "height": 551
                 },
-                "label": "bowl",
+                "label": "ciotola",
                 "prob": 85.6
             }
         ]
@@ -855,7 +855,7 @@
         ]
     },
     {
-        "FileName": "BEDW7506",
+        "FileName": "lettoW7506",
         "FileExtension": ".JPG",
         "Objects": []
     },
@@ -927,7 +927,7 @@
                     "width": 2248,
                     "height": 1911
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 93.1
             },
             {
@@ -1188,7 +1188,7 @@
                     "width": 2257,
                     "height": 2444
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 89.4
             }
         ]
@@ -1239,7 +1239,7 @@
                     "width": 416,
                     "height": 279
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 82.7
             },
             {
@@ -1331,7 +1331,7 @@
                     "width": 303,
                     "height": 614
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 82.8
             }
         ]
@@ -1347,7 +1347,7 @@
                     "width": 541,
                     "height": 2428
                 },
-                "label": "potted plant",
+                "label": "pianta in vaso",
                 "prob": 89.1
             },
             {
@@ -1579,7 +1579,7 @@
                     "width": 644,
                     "height": 958
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 92.2
             },
             {
@@ -1589,7 +1589,7 @@
                     "width": 420,
                     "height": 836
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 92
             },
             {
@@ -1745,7 +1745,7 @@
                     "width": 284,
                     "height": 604
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 85
             }
         ]
@@ -1905,7 +1905,7 @@
                     "width": 524,
                     "height": 870
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 87.8
             }
         ]
@@ -2151,7 +2151,7 @@
                     "width": 486,
                     "height": 858
                 },
-                "label": "cake",
+                "label": "torta",
                 "prob": 86.3
             }
         ]
@@ -2208,7 +2208,7 @@
                     "width": 207,
                     "height": 402
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 80.7
             }
         ]
@@ -2393,7 +2393,7 @@
                     "width": 181,
                     "height": 176
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 86.5
             }
         ]
@@ -2419,7 +2419,7 @@
                     "width": 547,
                     "height": 913
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 83.7
             }
         ]
@@ -2523,7 +2523,7 @@
                     "width": 935,
                     "height": 578
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 88.3
             }
         ]
@@ -2726,7 +2726,7 @@
                     "width": 1304,
                     "height": 1923
                 },
-                "label": "book",
+                "label": "libro",
                 "prob": 83.1
             }
         ]
@@ -2758,7 +2758,7 @@
                     "width": 2257,
                     "height": 2165
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 84
             }
         ]
@@ -2885,7 +2885,7 @@
                     "width": 560,
                     "height": 646
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 93.2
             },
             {
@@ -2895,7 +2895,7 @@
                     "width": 2042,
                     "height": 1284
                 },
-                "label": "dining table",
+                "label": "tavolo da pranzo",
                 "prob": 91.1
             },
             {
@@ -2905,7 +2905,7 @@
                     "width": 657,
                     "height": 967
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 89.5
             },
             {
@@ -2968,7 +2968,7 @@
                     "width": 801,
                     "height": 1045
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 89.3
             },
             {
@@ -3071,7 +3071,7 @@
                     "width": 327,
                     "height": 622
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 88.1
             },
             {
@@ -3201,7 +3201,7 @@
                     "width": 2173,
                     "height": 3172
                 },
-                "label": "bed",
+                "label": "letto",
                 "prob": 91.6
             }
         ]
@@ -3258,7 +3258,7 @@
                     "width": 422,
                     "height": 626
                 },
-                "label": "bowl",
+                "label": "ciotola",
                 "prob": 80.2
             }
         ]
@@ -3742,7 +3742,7 @@
                     "width": 392,
                     "height": 934
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 91.5
             },
             {
@@ -4362,7 +4362,7 @@
                     "width": 173,
                     "height": 329
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 84.3
             }
         ]
@@ -4435,7 +4435,7 @@
                     "width": 2241,
                     "height": 2240
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 93.5
             }
         ]
@@ -4482,7 +4482,7 @@
                     "width": 1049,
                     "height": 1215
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 91.3
             },
             {
@@ -4492,7 +4492,7 @@
                     "width": 833,
                     "height": 674
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 89.2
             }
         ]
@@ -4662,7 +4662,7 @@
                     "width": 2218,
                     "height": 2891
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 90.8
             }
         ]
@@ -4952,7 +4952,7 @@
                     "width": 2053,
                     "height": 1870
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 96
             },
             {
@@ -4962,7 +4962,7 @@
                     "width": 570,
                     "height": 874
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 83
             },
             {
@@ -5154,7 +5154,7 @@
                     "width": 2257,
                     "height": 1979
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 94.2
             }
         ]
@@ -5170,7 +5170,7 @@
                     "width": 1549,
                     "height": 809
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 93.8
             }
         ]
@@ -5248,7 +5248,7 @@
                     "width": 427,
                     "height": 401
                 },
-                "label": "bowl",
+                "label": "ciotola",
                 "prob": 94.5
             },
             {
@@ -5709,7 +5709,7 @@
                     "width": 642,
                     "height": 754
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 87.8
             }
         ]
@@ -5818,7 +5818,7 @@
                     "width": 4262,
                     "height": 5394
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 82.4
             }
         ]
@@ -6251,7 +6251,7 @@
                     "width": 1967,
                     "height": 3746
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 94.3
             }
         ]
@@ -6267,7 +6267,7 @@
                     "width": 1331,
                     "height": 2768
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 95.6
             }
         ]
@@ -6487,7 +6487,7 @@
                     "width": 860,
                     "height": 723
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 81.6
             },
             {
@@ -6497,7 +6497,7 @@
                     "width": 334,
                     "height": 398
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 81.1
             },
             {
@@ -6533,7 +6533,7 @@
                     "width": 569,
                     "height": 440
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 81.8
             },
             {
@@ -6553,7 +6553,7 @@
                     "width": 221,
                     "height": 282
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 80
             }
         ]
@@ -6579,7 +6579,7 @@
                     "width": 486,
                     "height": 294
                 },
-                "label": "cake",
+                "label": "torta",
                 "prob": 85.7
             },
             {
@@ -6615,7 +6615,7 @@
                     "width": 471,
                     "height": 281
                 },
-                "label": "cake",
+                "label": "torta",
                 "prob": 83.8
             },
             {
@@ -6641,7 +6641,7 @@
                     "width": 365,
                     "height": 615
                 },
-                "label": "clock",
+                "label": "orologio",
                 "prob": 89.2
             },
             {
@@ -6651,7 +6651,7 @@
                     "width": 312,
                     "height": 311
                 },
-                "label": "clock",
+                "label": "orologio",
                 "prob": 80.5
             },
             {
@@ -6661,7 +6661,7 @@
                     "width": 752,
                     "height": 660
                 },
-                "label": "dining table",
+                "label": "tavolo da pranzo",
                 "prob": 80.3
             }
         ]
@@ -6677,7 +6677,7 @@
                     "width": 397,
                     "height": 619
                 },
-                "label": "clock",
+                "label": "orologio",
                 "prob": 89.9
             },
             {
@@ -6703,7 +6703,7 @@
                     "width": 367,
                     "height": 613
                 },
-                "label": "clock",
+                "label": "orologio",
                 "prob": 89.2
             },
             {
@@ -6713,7 +6713,7 @@
                     "width": 324,
                     "height": 312
                 },
-                "label": "clock",
+                "label": "orologio",
                 "prob": 86.2
             }
         ]
@@ -6729,7 +6729,7 @@
                     "width": 1679,
                     "height": 2496
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 96.3
             }
         ]
@@ -7003,7 +7003,7 @@
                     "width": 1131,
                     "height": 2169
                 },
-                "label": "book",
+                "label": "libro",
                 "prob": 92.6
             }
         ]
@@ -7019,7 +7019,7 @@
                     "width": 2085,
                     "height": 945
                 },
-                "label": "dining table",
+                "label": "tavolo da pranzo",
                 "prob": 93.9
             },
             {
@@ -7099,7 +7099,7 @@
                     "width": 458,
                     "height": 427
                 },
-                "label": "potted plant",
+                "label": "pianta in vaso",
                 "prob": 83.3
             }
         ]
@@ -7338,7 +7338,7 @@
                     "width": 1071,
                     "height": 938
                 },
-                "label": "potted plant",
+                "label": "pianta in vaso",
                 "prob": 96.9
             },
             {
@@ -7348,7 +7348,7 @@
                     "width": 730,
                     "height": 902
                 },
-                "label": "potted plant",
+                "label": "pianta in vaso",
                 "prob": 93.4
             },
             {
@@ -7368,7 +7368,7 @@
                     "width": 879,
                     "height": 1710
                 },
-                "label": "potted plant",
+                "label": "pianta in vaso",
                 "prob": 90.8
             }
         ]
@@ -7384,7 +7384,7 @@
                     "width": 2027,
                     "height": 2716
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 97.4
             },
             {
@@ -7622,7 +7622,7 @@
                     "width": 936,
                     "height": 905
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 88.4
             }
         ]
@@ -7658,7 +7658,7 @@
                     "width": 632,
                     "height": 913
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 88.6
             }
         ]
@@ -7776,7 +7776,7 @@
                     "width": 2091,
                     "height": 3834
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 83.9
             }
         ]
@@ -7833,7 +7833,7 @@
                     "width": 659,
                     "height": 726
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 84.4
             },
             {
@@ -8044,7 +8044,7 @@
                     "width": 2435,
                     "height": 1923
                 },
-                "label": "dining table",
+                "label": "tavolo da pranzo",
                 "prob": 82.5
             }
         ]
@@ -8167,7 +8167,7 @@
                     "width": 853,
                     "height": 332
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 86
             },
             {
@@ -8365,7 +8365,7 @@
                     "width": 3017,
                     "height": 2227
                 },
-                "label": "dining table",
+                "label": "tavolo da pranzo",
                 "prob": 84.6
             },
             {
@@ -8487,7 +8487,7 @@
                     "width": 493,
                     "height": 969
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 95.7
             },
             {
@@ -8513,7 +8513,7 @@
                     "width": 490,
                     "height": 963
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 96.1
             }
         ]
@@ -8529,7 +8529,7 @@
                     "width": 485,
                     "height": 939
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 93.8
             },
             {
@@ -8804,7 +8804,7 @@
                     "width": 1866,
                     "height": 2572
                 },
-                "label": "bed",
+                "label": "letto",
                 "prob": 83.7
             }
         ]
@@ -9638,7 +9638,7 @@
                     "width": 756,
                     "height": 702
                 },
-                "label": "clock",
+                "label": "orologio",
                 "prob": 85.6
             }
         ]
@@ -9654,7 +9654,7 @@
                     "width": 780,
                     "height": 739
                 },
-                "label": "clock",
+                "label": "orologio",
                 "prob": 87.9
             },
             {
@@ -9664,7 +9664,7 @@
                     "width": 408,
                     "height": 215
                 },
-                "label": "clock",
+                "label": "orologio",
                 "prob": 84.6
             }
         ]
@@ -9815,7 +9815,7 @@
                     "width": 1467,
                     "height": 911
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 88.4
             }
         ]
@@ -10807,7 +10807,7 @@
                     "width": 234,
                     "height": 478
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 80.4
             }
         ]
@@ -10889,7 +10889,7 @@
                     "width": 240,
                     "height": 469
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 85.3
             }
         ]
@@ -12202,7 +12202,7 @@
                     "width": 148,
                     "height": 186
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 83.8
             }
         ]
@@ -12685,7 +12685,7 @@
                     "width": 4278,
                     "height": 4539
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 86.7
             }
         ]
@@ -12767,7 +12767,7 @@
                     "width": 691,
                     "height": 481
                 },
-                "label": "bowl",
+                "label": "ciotola",
                 "prob": 88.1
             },
             {
@@ -12807,7 +12807,7 @@
                     "width": 629,
                     "height": 357
                 },
-                "label": "bowl",
+                "label": "ciotola",
                 "prob": 85.6
             },
             {
@@ -12817,7 +12817,7 @@
                     "width": 3914,
                     "height": 2896
                 },
-                "label": "dining table",
+                "label": "tavolo da pranzo",
                 "prob": 85.6
             },
             {
@@ -12873,7 +12873,7 @@
                     "width": 2084,
                     "height": 1684
                 },
-                "label": "bowl",
+                "label": "ciotola",
                 "prob": 88
             },
             {
@@ -12883,7 +12883,7 @@
                     "width": 677,
                     "height": 367
                 },
-                "label": "bowl",
+                "label": "ciotola",
                 "prob": 87.4
             },
             {
@@ -12923,7 +12923,7 @@
                     "width": 683,
                     "height": 450
                 },
-                "label": "bowl",
+                "label": "ciotola",
                 "prob": 85.1
             },
             {
@@ -12933,7 +12933,7 @@
                     "width": 4250,
                     "height": 3929
                 },
-                "label": "dining table",
+                "label": "tavolo da pranzo",
                 "prob": 82.9
             }
         ]
@@ -12999,7 +12999,7 @@
                     "width": 2297,
                     "height": 1857
                 },
-                "label": "bowl",
+                "label": "ciotola",
                 "prob": 84.6
             },
             {
@@ -13009,7 +13009,7 @@
                     "width": 4253,
                     "height": 3920
                 },
-                "label": "dining table",
+                "label": "tavolo da pranzo",
                 "prob": 80.7
             }
         ]
@@ -13025,7 +13025,7 @@
                     "width": 1598,
                     "height": 2385
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 95.5
             },
             {
@@ -13045,7 +13045,7 @@
                     "width": 1257,
                     "height": 1248
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 85.7
             }
         ]
@@ -13093,7 +13093,7 @@
                     "width": 1471,
                     "height": 1870
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 95.3
             }
         ]
@@ -13129,7 +13129,7 @@
                     "width": 434,
                     "height": 767
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 90.3
             }
         ]
@@ -13155,7 +13155,7 @@
                     "width": 611,
                     "height": 768
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 91.8
             }
         ]
@@ -13171,7 +13171,7 @@
                     "width": 5543,
                     "height": 3897
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 84.6
             }
         ]
@@ -13223,7 +13223,7 @@
                     "width": 990,
                     "height": 1048
                 },
-                "label": "potted plant",
+                "label": "pianta in vaso",
                 "prob": 89.9
             }
         ]
@@ -13239,7 +13239,7 @@
                     "width": 1337,
                     "height": 1105
                 },
-                "label": "potted plant",
+                "label": "pianta in vaso",
                 "prob": 92.7
             }
         ]
@@ -13255,7 +13255,7 @@
                     "width": 1508,
                     "height": 974
                 },
-                "label": "potted plant",
+                "label": "pianta in vaso",
                 "prob": 84.5
             }
         ]
@@ -13381,7 +13381,7 @@
                     "width": 246,
                     "height": 256
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 89.1
             },
             {
@@ -13437,7 +13437,7 @@
                     "width": 2457,
                     "height": 2508
                 },
-                "label": "cake",
+                "label": "torta",
                 "prob": 91.4
             },
             {
@@ -13493,7 +13493,7 @@
                     "width": 2389,
                     "height": 2463
                 },
-                "label": "cake",
+                "label": "torta",
                 "prob": 86.5
             },
             {
@@ -13889,7 +13889,7 @@
                     "width": 184,
                     "height": 418
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 82.4
             }
         ]
@@ -14283,7 +14283,7 @@
                     "width": 983,
                     "height": 1166
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 82.5
             }
         ]
@@ -14371,7 +14371,7 @@
                     "width": 3541,
                     "height": 2610
                 },
-                "label": "book",
+                "label": "libro",
                 "prob": 96.6
             },
             {
@@ -14381,7 +14381,7 @@
                     "width": 3751,
                     "height": 2391
                 },
-                "label": "book",
+                "label": "libro",
                 "prob": 94.2
             }
         ]
@@ -14397,7 +14397,7 @@
                     "width": 4212,
                     "height": 4442
                 },
-                "label": "book",
+                "label": "libro",
                 "prob": 93.6
             }
         ]
@@ -14652,7 +14652,7 @@
                     "width": 2822,
                     "height": 1583
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 89.8
             },
             {
@@ -14678,7 +14678,7 @@
                     "width": 2721,
                     "height": 1679
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 92.4
             },
             {
@@ -14724,7 +14724,7 @@
                     "width": 2922,
                     "height": 2070
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 91.7
             },
             {
@@ -14760,7 +14760,7 @@
                     "width": 1042,
                     "height": 500
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 91.9
             }
         ]
@@ -14786,7 +14786,7 @@
                     "width": 1025,
                     "height": 494
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 91.2
             },
             {
@@ -14806,7 +14806,7 @@
                     "width": 2958,
                     "height": 1095
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 81.7
             }
         ]
@@ -14822,7 +14822,7 @@
                     "width": 1015,
                     "height": 494
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 92.5
             },
             {
@@ -14868,7 +14868,7 @@
                     "width": 1026,
                     "height": 475
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 92.5
             },
             {
@@ -14894,7 +14894,7 @@
                     "width": 1008,
                     "height": 600
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 93.2
             },
             {
@@ -14904,7 +14904,7 @@
                     "width": 1358,
                     "height": 1052
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 87.9
             },
             {
@@ -14924,7 +14924,7 @@
                     "width": 2857,
                     "height": 595
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 81.9
             }
         ]
@@ -14966,7 +14966,7 @@
                     "width": 2880,
                     "height": 2902
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 82.9
             }
         ]
@@ -15032,7 +15032,7 @@
                     "width": 4250,
                     "height": 4468
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 88.4
             }
         ]
@@ -15048,7 +15048,7 @@
                     "width": 2051,
                     "height": 1713
                 },
-                "label": "book",
+                "label": "libro",
                 "prob": 88.2
             },
             {
@@ -15058,7 +15058,7 @@
                     "width": 1971,
                     "height": 1591
                 },
-                "label": "book",
+                "label": "libro",
                 "prob": 84.6
             }
         ]
@@ -15094,7 +15094,7 @@
                     "width": 4186,
                     "height": 2872
                 },
-                "label": "book",
+                "label": "libro",
                 "prob": 84.7
             }
         ]
@@ -15130,7 +15130,7 @@
                     "width": 3771,
                     "height": 2361
                 },
-                "label": "book",
+                "label": "libro",
                 "prob": 80.5
             }
         ]
@@ -15146,7 +15146,7 @@
                     "width": 2704,
                     "height": 2710
                 },
-                "label": "book",
+                "label": "libro",
                 "prob": 87
             }
         ]
@@ -15177,7 +15177,7 @@
                     "width": 2007,
                     "height": 1850
                 },
-                "label": "book",
+                "label": "libro",
                 "prob": 87.9
             }
         ]
@@ -15797,7 +15797,7 @@
                     "width": 326,
                     "height": 831
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 83.8
             }
         ]
@@ -17660,7 +17660,7 @@
                     "width": 700,
                     "height": 926
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 82.1
             }
         ]
@@ -18400,7 +18400,7 @@
                     "width": 2242,
                     "height": 1974
                 },
-                "label": "dining table",
+                "label": "tavolo da pranzo",
                 "prob": 81.6
             }
         ]
@@ -18895,7 +18895,7 @@
                     "width": 1681,
                     "height": 1292
                 },
-                "label": "dining table",
+                "label": "tavolo da pranzo",
                 "prob": 88.3
             }
         ]
@@ -18951,7 +18951,7 @@
                     "width": 953,
                     "height": 1586
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 88.3
             },
             {
@@ -19039,7 +19039,7 @@
                     "width": 2762,
                     "height": 2005
                 },
-                "label": "bed",
+                "label": "letto",
                 "prob": 94
             },
             {
@@ -19582,7 +19582,7 @@
                     "width": 437,
                     "height": 1092
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 83.6
             }
         ]
@@ -19793,7 +19793,7 @@
         ]
     },
     {
-        "FileName": "Kmacchina4820",
+        "FileName": "KCAR4820",
         "FileExtension": ".JPG",
         "Objects": [
             {
@@ -19939,7 +19939,7 @@
                     "width": 1024,
                     "height": 1038
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 87.6
             }
         ]
@@ -19970,7 +19970,7 @@
                     "width": 484,
                     "height": 798
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 93.2
             },
             {
@@ -20166,7 +20166,7 @@
                     "width": 251,
                     "height": 1015
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 83.2
             }
         ]
@@ -20545,7 +20545,7 @@
                     "width": 530,
                     "height": 780
                 },
-                "label": "potted plant",
+                "label": "pianta in vaso",
                 "prob": 86.7
             },
             {
@@ -20555,7 +20555,7 @@
                     "width": 340,
                     "height": 607
                 },
-                "label": "potted plant",
+                "label": "pianta in vaso",
                 "prob": 86.4
             }
         ]
@@ -20912,7 +20912,7 @@
                     "width": 141,
                     "height": 171
                 },
-                "label": "clock",
+                "label": "orologio",
                 "prob": 86.9
             }
         ]
@@ -20948,7 +20948,7 @@
                     "width": 293,
                     "height": 592
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 84.6
             }
         ]
@@ -21010,7 +21010,7 @@
                     "width": 1813,
                     "height": 1816
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 92.9
             }
         ]
@@ -21161,7 +21161,7 @@
                     "width": 501,
                     "height": 1035
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 92.5
             }
         ]
@@ -21299,7 +21299,7 @@
                     "width": 951,
                     "height": 1046
                 },
-                "label": "clock",
+                "label": "orologio",
                 "prob": 87.9
             }
         ]
@@ -21357,7 +21357,7 @@
                     "width": 443,
                     "height": 658
                 },
-                "label": "cake",
+                "label": "torta",
                 "prob": 86.2
             }
         ]
@@ -22035,7 +22035,7 @@
                     "width": 436,
                     "height": 512
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 89.1
             },
             {
@@ -22045,7 +22045,7 @@
                     "width": 466,
                     "height": 486
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 83.6
             },
             {
@@ -22071,7 +22071,7 @@
                     "width": 2437,
                     "height": 3141
                 },
-                "label": "bed",
+                "label": "letto",
                 "prob": 91.9
             }
         ]
@@ -22118,7 +22118,7 @@
                     "width": 443,
                     "height": 1646
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 87.9
             }
         ]
@@ -22930,7 +22930,7 @@
         "Objects": []
     },
     {
-        "FileName": "Pmacchina5967",
+        "FileName": "PCAR5967",
         "FileExtension": ".JPG",
         "Objects": [
             {
@@ -23018,7 +23018,7 @@
                     "width": 647,
                     "height": 464
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 88.7
             },
             {
@@ -23028,7 +23028,7 @@
                     "width": 439,
                     "height": 771
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 88.4
             }
         ]
@@ -23076,7 +23076,7 @@
                     "width": 2259,
                     "height": 3137
                 },
-                "label": "book",
+                "label": "libro",
                 "prob": 80.6
             }
         ]
@@ -23154,7 +23154,7 @@
                     "width": 237,
                     "height": 1065
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 85.5
             }
         ]
@@ -23191,7 +23191,7 @@
                     "width": 2126,
                     "height": 2259
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 83.6
             }
         ]
@@ -23925,7 +23925,7 @@
                     "width": 1532,
                     "height": 1433
                 },
-                "label": "dining table",
+                "label": "tavolo da pranzo",
                 "prob": 86.7
             },
             {
@@ -23935,7 +23935,7 @@
                     "width": 169,
                     "height": 363
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 80.9
             }
         ]
@@ -24334,7 +24334,7 @@
                     "width": 257,
                     "height": 172
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 86.3
             }
         ]
@@ -24906,7 +24906,7 @@
                     "width": 588,
                     "height": 799
                 },
-                "label": "potted plant",
+                "label": "pianta in vaso",
                 "prob": 89.1
             },
             {
@@ -25056,7 +25056,7 @@
                     "width": 327,
                     "height": 879
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 83.8
             },
             {
@@ -25222,7 +25222,7 @@
                     "width": 432,
                     "height": 1011
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 83.7
             }
         ]
@@ -25269,7 +25269,7 @@
                     "width": 414,
                     "height": 781
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 92.5
             },
             {
@@ -25619,7 +25619,7 @@
                     "width": 397,
                     "height": 483
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 87.7
             },
             {
@@ -25629,7 +25629,7 @@
                     "width": 995,
                     "height": 810
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 82.2
             }
         ]
@@ -26239,7 +26239,7 @@
                     "width": 1994,
                     "height": 2706
                 },
-                "label": "dining table",
+                "label": "tavolo da pranzo",
                 "prob": 93.5
             },
             {
@@ -26358,7 +26358,7 @@
                     "width": 671,
                     "height": 400
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 86.7
             }
         ]
@@ -26440,7 +26440,7 @@
                     "width": 2265,
                     "height": 2532
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 95.6
             }
         ]
@@ -26549,7 +26549,7 @@
                     "width": 2086,
                     "height": 1431
                 },
-                "label": "book",
+                "label": "libro",
                 "prob": 80.6
             }
         ]
@@ -26622,7 +26622,7 @@
                     "width": 172,
                     "height": 357
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 80.6
             }
         ]
@@ -26723,7 +26723,7 @@
                     "width": 2964,
                     "height": 2017
                 },
-                "label": "bed",
+                "label": "letto",
                 "prob": 87.7
             }
         ]
@@ -26759,7 +26759,7 @@
                     "width": 634,
                     "height": 1822
                 },
-                "label": "dining table",
+                "label": "tavolo da pranzo",
                 "prob": 80.6
             },
             {
@@ -27027,7 +27027,7 @@
                     "width": 389,
                     "height": 341
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 88.1
             }
         ]
@@ -27223,7 +27223,7 @@
                     "width": 444,
                     "height": 413
                 },
-                "label": "clock",
+                "label": "orologio",
                 "prob": 82.7
             }
         ]
@@ -27332,7 +27332,7 @@
                     "width": 575,
                     "height": 608
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 89.9
             },
             {
@@ -27352,7 +27352,7 @@
                     "width": 520,
                     "height": 383
                 },
-                "label": "laptop",
+                "label": "portatile",
                 "prob": 80
             }
         ]
@@ -27404,7 +27404,7 @@
                     "width": 317,
                     "height": 606
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 82.8
             }
         ]
@@ -27523,7 +27523,7 @@
                     "width": 441,
                     "height": 2497
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 82.6
             }
         ]
@@ -27564,7 +27564,7 @@
                     "width": 192,
                     "height": 354
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 81.1
             }
         ]
@@ -27674,7 +27674,7 @@
                     "width": 219,
                     "height": 212
                 },
-                "label": "clock",
+                "label": "orologio",
                 "prob": 89.9
             }
         ]
@@ -27915,7 +27915,7 @@
                     "width": 149,
                     "height": 216
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 81.8
             }
         ]
@@ -28527,7 +28527,7 @@
                     "width": 1077,
                     "height": 1053
                 },
-                "label": "chair",
+                "label": "sedia",
                 "prob": 92.6
             },
             {
@@ -28584,7 +28584,7 @@
                     "width": 2564,
                     "height": 2099
                 },
-                "label": "potted plant",
+                "label": "pianta in vaso",
                 "prob": 84.5
             }
         ]
@@ -28949,7 +28949,7 @@
                     "width": 171,
                     "height": 346
                 },
-                "label": "cell phone",
+                "label": "cellulare",
                 "prob": 84
             }
         ]

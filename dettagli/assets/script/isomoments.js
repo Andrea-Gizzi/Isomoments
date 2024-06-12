@@ -10,8 +10,8 @@ async function run() {
     // Categorie
     const labels = ['persona', 'macchina', 'moto', 'bus', 'barca', 
         'panchina', 'cane', 'zaino', 'borsa', 'bottiglia', 
-        'bicchiere da vino', 'bicchiere', 'bowl', 'cake', 'chair', 'potted plant', 
-        'bed', 'dining table', 'tv', 'laptop', 'cell phone', 'book', 'clock'];
+        'bicchiere da vino', 'bicchiere', 'ciotola', 'torta', 'sedia', 'pianta in vaso', 
+        'letto', 'tavolo da pranzo', 'tv', 'portatile', 'cellulare', 'libro', 'orologio'];
 
     load_containers(labels);
 
