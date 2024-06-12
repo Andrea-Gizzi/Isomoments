@@ -13,6 +13,7 @@ function convertISOtoOpacity(iso) {
     return opacity;
 }
 
+
 // Funzione principale
 async function run() {
     let data;
@@ -97,6 +98,7 @@ async function run() {
 
 }
 
+
 // Gestore scroll
 function handleScroll() {
     const categories = document.querySelectorAll('.info');
@@ -118,6 +120,7 @@ function handleScroll() {
 
 window.addEventListener('scroll', handleScroll);
 
+
 // Bottone scroll
 function scrollToTitle() {
     let mainElement = document.getElementById("main");
@@ -129,6 +132,7 @@ function scrollToTitle() {
         behavior: 'smooth'
     });
 }
+
 
 // Caricamento della finestra
 window.onload = function() {

@@ -71,6 +71,7 @@ async function run() {
     handleScroll();
 }
 
+
 // Caricamento immagini
 function createImageHTML(fileName, index) {
     const imagePath = "../dettagli/assets/imgs/yolo_crop/" + fileName + "_" + index + ".jpg";
@@ -99,6 +100,7 @@ function load_containers(labels) {
     document.getElementById("main").innerHTML += cats;
 }
 
+
 // Gestore scroll
 function handleScroll() {
     const categories = document.querySelectorAll('.info');
@@ -120,6 +122,7 @@ function handleScroll() {
 
 window.addEventListener('scroll', handleScroll);
 
+
 // Bottone scroll
 function scrollToTitle() {
     let mainElement = document.getElementById("main");
@@ -131,6 +134,7 @@ function scrollToTitle() {
         behavior: 'smooth'
     });
 }
+
 
 // Caricamento della finestra
 window.onload = function() {

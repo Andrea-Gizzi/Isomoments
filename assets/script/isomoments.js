@@ -13,6 +13,7 @@ function convertISOtoOpacity(iso) {
     return opacity;
 }
 
+
 // Funzione principale
 async function run() {
     let data;
@@ -69,6 +70,7 @@ async function run() {
     main.innerHTML = output;
 }
 
+
 // Testo di avvio
 function start() {
     console.log('start');
@@ -104,6 +106,7 @@ function start() {
 
     displayText();
 }
+
 
 // Caricamento della finestra
 window.onload = function() {

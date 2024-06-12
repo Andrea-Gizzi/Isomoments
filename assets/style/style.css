@@ -29,7 +29,6 @@ body {
 }
 
 
-
 /* HEADER */ 
 header {
     background-color: #F0F0F0;
@@ -104,7 +103,6 @@ header {
 }
 
 
-
 /*MAIN*/
 main {
     padding-top: 85px;
@@ -149,7 +147,6 @@ img.image {
 }
 
 
-
 /*FOOTER*/
 footer {
     font-family: "Alfabet";
@@ -171,3 +168,6 @@ footer {
     font-size: 14px;
     text-align: left;  
 }
+
+
+/*RESPONSIVE*/
