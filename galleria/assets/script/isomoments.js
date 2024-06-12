@@ -63,7 +63,7 @@ async function run() {
         const exif = data[i].EXIF;
         const ora = parseInt(exif.Ora.H, 10);
 
-        const imagePath = "./assets/imgs/img_120/" + data[i].FileName + ".JPG";
+        const imagePath = "../assets/imgs/img_120/" + data[i].FileName + ".JPG";
 
         output += "<img src='" + imagePath + "' alt='Imm' style='filter: grayscale(100%); opacity: " + convertISOtoOpacity(exif.ISO) + ";' class='image'>";
     }
