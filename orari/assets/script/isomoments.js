@@ -104,7 +104,6 @@ async function run() {
 
 
 // Gestore scroll
-// Gestore scroll
 function handleScroll() {
     const categories = document.querySelectorAll('.main_box');
     const windowHeight = window.innerHeight;

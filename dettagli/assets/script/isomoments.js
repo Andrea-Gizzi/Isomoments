@@ -8,9 +8,9 @@ async function run() {
         })
 
     // Categorie
-    const labels = ['person', 'car', 'motorcycle', 'bus', 'truck', 'boat', 
-        'bench', 'dog', 'backpack', 'handbag', 'bottle', 
-        'wine glass', 'cup', 'bowl', 'cake', 'chair', 'potted plant', 
+    const labels = ['persona', 'macchina', 'moto', 'bus', 'barca', 
+        'panchina', 'cane', 'zaino', 'borsa', 'bottiglia', 
+        'bicchiere da vino', 'bicchiere', 'bowl', 'cake', 'chair', 'potted plant', 
         'bed', 'dining table', 'tv', 'laptop', 'cell phone', 'book', 'clock'];
 
     load_containers(labels);
