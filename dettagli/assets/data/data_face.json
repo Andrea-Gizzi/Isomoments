@@ -23597,26 +23597,6 @@
         "Faces": []
     },
     {
-        "FileName": "PDGE9057",
-        "FileExtension": ".JPG",
-        "Faces": [
-            {
-                "box": {
-                    "left": 611,
-                    "top": 1699,
-                    "width": 284,
-                    "height": 238
-                },
-                "confidence": 69.5,
-                "gender": "male",
-                "genderConfidence": 95.3,
-                "age": 21.6,
-                "expression": "neutral",
-                "expressionConfidence": 98.8
-            }
-        ]
-    },
-    {
         "FileName": "PDOH1857",
         "FileExtension": ".JPG",
         "Faces": []

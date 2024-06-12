@@ -35,9 +35,9 @@ header {
     font-family: "Alfabet";
     font-size: 16px;
     border-radius: 60px;
-    color: white;
-    background: #94949450;
-    border: none;
+    color: black;
+    background: none;
+    border: solid 1px black;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 12px;
@@ -46,6 +46,7 @@ header {
 }
 
 .indexButton:hover {
+    color: white;
     background: black;
     cursor: pointer;
 }
@@ -157,7 +158,7 @@ p {
 img {
     display: block;
     float: left;
-    height: 80px;
+    height: 8vh;
     margin: 1px;
 }
 
@@ -211,6 +212,8 @@ footer {
     .title{
         font-size: 70px;
         margin-bottom: 40px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .main_box {
@@ -232,7 +235,7 @@ footer {
     img {
         display: block;
         float: left;
-        height: 40px;
+        height: 6vh;
         margin: 1px;
     }
 

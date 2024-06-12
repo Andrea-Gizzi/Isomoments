@@ -34,17 +34,25 @@ async function run() {
 
 
     
-    // Ordinamento dei dati per ora, e poi per data
+    // Ordinamento dei dati per ora, minuti e secondi
     data.sort((elementoA, elementoB) => {
         const oraA = parseInt(elementoA.EXIF.Ora.H, 10);
         const oraB = parseInt(elementoB.EXIF.Ora.H, 10);
-        const dataA = new Date(elementoA.EXIF.CreateDate);
-        const dataB = new Date(elementoB.EXIF.CreateDate);
-
+        const minutiA = parseInt(elementoA.EXIF.Ora.M, 10);
+        const minutiB = parseInt(elementoB.EXIF.Ora.M, 10);
+        const secondiA = parseInt(elementoA.EXIF.Ora.S, 10);
+        const secondiB = parseInt(elementoB.EXIF.Ora.S, 10);
+    
         const adjustedOraA = oraA < 8 ? oraA + 24 : oraA;
         const adjustedOraB = oraB < 8 ? oraB + 24 : oraB;
-
-        return adjustedOraA - adjustedOraB;
+    
+        if (adjustedOraA !== adjustedOraB) {
+            return adjustedOraA - adjustedOraB;
+        } else if (minutiA !== minutiB) {
+            return minutiA - minutiB;
+        } else {
+            return secondiA - secondiB;
+        }
     });
 
     const main = document.getElementById('main');

@@ -9,10 +9,9 @@ async function run() {
 
 
     // Categorie
-    const labels = ['persona', 'macchina', 'moto', 'bus', 'barca', 
-        'panchina', 'cane', 'zaino', 'borsa', 'bottiglia', 
-        'bicchiere da vino', 'bicchiere', 'ciotola', 'torta', 'sedia', 'pianta in vaso', 
-        'letto', 'tavolo da pranzo', 'tv', 'portatile', 'cellulare', 'libro', 'orologio'];
+    const labels = [ 'macchina', 'moto', 'bus', 'barca', 'cane', 'persona', 'bicchiere da vino', 'bottiglia', 
+    'bicchiere', 'ciotola', 'torta', 'tavolo da pranzo', 'sedia', 'letto', 'panchina', 'zaino', 'borsa', 'libro',
+    'cellulare', 'portatile', 'tv', 'orologio', 'pianta in vaso',];
 
     load_containers(labels);
 

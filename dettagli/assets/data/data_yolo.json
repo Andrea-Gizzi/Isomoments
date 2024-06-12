@@ -22993,11 +22993,6 @@
         ]
     },
     {
-        "FileName": "PDGE9057",
-        "FileExtension": ".JPG",
-        "Objects": []
-    },
-    {
         "FileName": "PDOH1857",
         "FileExtension": ".JPG",
         "Objects": []
@@ -24326,18 +24321,7 @@
     {
         "FileName": "RCGZ4962",
         "FileExtension": ".JPG",
-        "Objects": [
-            {
-                "box": {
-                    "left": 1982,
-                    "top": 1644,
-                    "width": 257,
-                    "height": 172
-                },
-                "label": "cellulare",
-                "prob": 86.3
-            }
-        ]
+        "Objects": []
     },
     {
         "FileName": "RCMK8814",

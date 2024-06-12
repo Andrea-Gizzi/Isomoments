@@ -121,7 +121,9 @@ main {
 
 img.image {
     width: auto;
+    max-height: 120px;
     height: 8%; 
+    border: none;
     padding: 0;
     margin: 0;
     object-fit: contain;
