@@ -1,12 +1,21 @@
+// Funzione principale
 async function run() {
     let data;
 
+    // Caricamento dati JSON
     await fetch("../dettagli/assets/data/data_yolo.json")
         .then(r => r.json())
         .then(json => {
             data = json;
         })
-
+        .catch(error => {
+            console.error("Errore nel caricamento del JSON", error);
+        });
+ 
+    if (!data) {
+        console.error("Nessun dato caricato");
+        return;
+    }
 
     // Categorie
     const labels = [ 'macchina', 'moto', 'bus', 'barca', 'cane', 'persona', 'bicchiere da vino', 'bottiglia', 
@@ -15,15 +24,16 @@ async function run() {
 
     load_containers(labels);
 
-
     let categories = {};
     let imageCounts = {};
+
+    // Inizializzazione
     for (let i = 0; i < labels.length; i++) {
         categories[labels[i]] = '';
         imageCounts[labels[i]] = 0;
     }
 
-
+    // Elaborazione dei dati
     for (let i = 0; i < data.length; i++) {
         const objects = data[i].Objects;
         const fileName = data[i].FileName;
@@ -38,7 +48,7 @@ async function run() {
         }
     }
 
-
+    // Inserimento delle immagini
     for (const label in categories) {
         if (categories.hasOwnProperty(label)) {
             const container = document.getElementById(label);
@@ -48,7 +58,7 @@ async function run() {
         }
     }
 
-
+    // Aggiornamento conteggi
     for (const label in imageCounts) {
         if (imageCounts.hasOwnProperty(label)) {
             const countElement = document.getElementById('image_count' + label);
@@ -61,8 +71,7 @@ async function run() {
     handleScroll();
 }
 
-
- // Usa l'indice come contatore locale
+// Caricamento immagini
 function createImageHTML(fileName, index) {
     const imagePath = "../dettagli/assets/imgs/yolo_crop/" + fileName + "_" + index + ".jpg";
     let output = "<div class='image-container'>";
@@ -72,6 +81,7 @@ function createImageHTML(fileName, index) {
 }
 
 
+// Creazione categorie
 function load_containers(labels) {
     let cats = "";
     for (let i = 0; i < labels.length; i++) {
@@ -85,10 +95,9 @@ function load_containers(labels) {
         cats += '</div>';
         cats += "</div>";
     }
-    // Aggiungi il contenuto al DOM
+    
     document.getElementById("main").innerHTML += cats;
 }
-
 
 // Gestore scroll
 function handleScroll() {
@@ -111,7 +120,6 @@ function handleScroll() {
 
 window.addEventListener('scroll', handleScroll);
 
-
 // Bottone scroll
 function scrollToTitle() {
     let mainElement = document.getElementById("main");
@@ -124,8 +132,7 @@ function scrollToTitle() {
     });
 }
 
-
-// Bottone attivo
+// Caricamento della finestra
 window.onload = function() {
     document.getElementById('dettagli').classList.add('active');
     run();

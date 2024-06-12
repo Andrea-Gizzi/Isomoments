@@ -1,4 +1,4 @@
-// Filtro iso
+// Filtro ISO
 function convertISOtoOpacity(iso) {
     const minISO = 40;
     const maxISO = 1600;
@@ -13,11 +13,11 @@ function convertISOtoOpacity(iso) {
     return opacity;
 }
 
-
-
+// Funzione principale
 async function run() {
     let data;
 
+    // Caricamento dati JSON
     await fetch("../assets/data/data_exif.json")
         .then(r => r.json())
         .then(json => {
@@ -32,9 +32,7 @@ async function run() {
         return;
     }
 
-
-
-    // Ordinamento dei dati per ora, minuti e secondi
+    // Ordinamento dati
     data.sort((elementoA, elementoB) => {
         const oraA = parseInt(elementoA.EXIF.Ora.H, 10);
         const oraB = parseInt(elementoB.EXIF.Ora.H, 10);
@@ -51,7 +49,6 @@ async function run() {
             return secondiA - secondiB;
         }
     });
-
 
     //Creazione categorie
     let cats = "";
@@ -75,14 +72,12 @@ async function run() {
         cats += "<div class='H' id='" + categorie[i] + "'></div>";
         cats += '</div>'
         cats += "</div>";
-    
     }
 
     const main = document.getElementById('main');
     main.innerHTML += cats;
 
-
-    // METADATI
+    // Caricamento immagini
     for (let i = 0; i < data.length; i++) {
         let output = "";
         let exif = data[i].EXIF;
@@ -101,7 +96,6 @@ async function run() {
     handleScroll();
 
 }
-
 
 // Gestore scroll
 function handleScroll() {
@@ -124,7 +118,6 @@ function handleScroll() {
 
 window.addEventListener('scroll', handleScroll);
 
-
 // Bottone scroll
 function scrollToTitle() {
     let mainElement = document.getElementById("main");
@@ -137,8 +130,7 @@ function scrollToTitle() {
     });
 }
 
-
-// Bottone attivo
+// Caricamento della finestra
 window.onload = function() {
     document.getElementById('orari').classList.add('active');
     run();

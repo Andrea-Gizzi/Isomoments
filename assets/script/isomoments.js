@@ -1,4 +1,4 @@
-// Filtro iso 
+// Filtro ISO
 function convertISOtoOpacity(iso) {
     const minISO = 40;
     const maxISO = 1600;
@@ -13,11 +13,11 @@ function convertISOtoOpacity(iso) {
     return opacity;
 }
 
-
-
+// Funzione principale
 async function run() {
     let data;
 
+    // Caricamento dati JSON
     await fetch("./assets/data/data_exif.json")
         .then(r => r.json())
         .then(json => {
@@ -31,10 +31,8 @@ async function run() {
         console.error("Nessun dato caricato");
         return;
     }
-
-
     
-    // Ordinamento dei dati per ora, minuti e secondi
+    // Ordinamento dati
     data.sort((elementoA, elementoB) => {
         const oraA = parseInt(elementoA.EXIF.Ora.H, 10);
         const oraB = parseInt(elementoB.EXIF.Ora.H, 10);
@@ -54,12 +52,11 @@ async function run() {
             return secondiA - secondiB;
         }
     });
-    
 
     const main = document.getElementById('main');
     let output = "";
 
-
+    // Caricamento immagini
     for (let i = 0; i < data.length; i++) {
         const exif = data[i].EXIF;
         const ora = parseInt(exif.Ora.H, 10);
@@ -72,9 +69,7 @@ async function run() {
     main.innerHTML = output;
 }
 
-
-
-//Pagine start
+// Testo di avvio
 function start() {
     console.log('start');
     box = document.getElementById('start');
@@ -110,8 +105,7 @@ function start() {
     displayText();
 }
 
-
-// Bottone attivo
+// Caricamento della finestra
 window.onload = function() {
     document.getElementById('galleria').classList.add('active');
 
