@@ -8,10 +8,10 @@ async function run() {
         })
 
     // Categorie
-    const labels = ['person', 'car', 'motorcycle', 'bus', 'truck', 'boat', 'traffic light', 'stop sign', 
+    const labels = ['person', 'car', 'motorcycle', 'bus', 'truck', 'boat', 
         'bench', 'dog', 'backpack', 'handbag', 'sports ball', 'kite', 'bottle', 
-        'wine glass', 'cup', 'bowl', 'cake', 'chair', 'couch', 'potted plant', 
-        'bed', 'dining table', 'tv', 'laptop', 'cell phone', 'sink', 'book', 'clock'];
+        'wine glass', 'cup', 'bowl', 'cake', 'chair', 'potted plant', 
+        'bed', 'dining table', 'tv', 'laptop', 'cell phone', 'book', 'clock'];
 
     load_containers(labels);
 

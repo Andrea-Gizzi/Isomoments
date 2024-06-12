@@ -86,6 +86,7 @@ header {
 main {
     padding-top: 160px;
     margin-bottom: 100px;
+    z-index: 0;
 }
 
 .title {
@@ -109,13 +110,22 @@ main {
     padding-bottom: 80px;
 }
 
+.info {
+    grid-column: 1 / span 2;
+}
+
 h1 {
     font-family: "Alfabet";
-    grid-column: 1 / span 2;
     color: rgba(0, 0, 0, 0.1);
     font-weight: 400;
     font-size: 24;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.1);
+    font-weight: 200;
+    font-size: 12;
 }
 
 .box {
@@ -137,13 +147,13 @@ h1 {
 img {
     display: block;
     float: left;
-    height: 40px;
+    height: 80px;
     margin: 1px;
 }
 
 .image-container:hover img {
-    filter: none;
-    opacity: 1;
+    filter: none !important;
+    opacity: 1 !important ;
 }
 
 
