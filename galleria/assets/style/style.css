@@ -35,9 +35,9 @@ header {
     font-family: "Alfabet";
     font-size: 16px;
     border-radius: 60px;
-    color: white;
-    background: #94949450;
-    border: none;
+    color: black;
+    background: none;
+    border: solid 1px black;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 12px;
@@ -46,6 +46,7 @@ header {
 }
 
 .indexButton:hover {
+    color: white;
     background: black;
     cursor: pointer;
 }
@@ -102,7 +103,7 @@ main {
 
 img.image {
     width: auto;
-    height: 36px; 
+    height: 8%; 
     padding: 0;
     margin: 0;
     object-fit: contain;
