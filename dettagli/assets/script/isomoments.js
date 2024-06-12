@@ -7,6 +7,7 @@ async function run() {
             data = json;
         })
 
+
     // Categorie
     const labels = ['persona', 'macchina', 'moto', 'bus', 'barca', 
         'panchina', 'cane', 'zaino', 'borsa', 'bottiglia', 
@@ -18,7 +19,6 @@ async function run() {
 
     let categories = {};
     let imageCounts = {};
-
     for (let i = 0; i < labels.length; i++) {
         categories[labels[i]] = '';
         imageCounts[labels[i]] = 0;
@@ -62,6 +62,7 @@ async function run() {
     handleScroll();
 }
 
+
  // Usa l'indice come contatore locale
 function createImageHTML(fileName, index) {
     const imagePath = "../dettagli/assets/imgs/yolo_crop/" + fileName + "_" + index + ".jpg";
@@ -70,6 +71,7 @@ function createImageHTML(fileName, index) {
     output += "</div>";
     return output;
 }
+
 
 function load_containers(labels) {
     let cats = "";

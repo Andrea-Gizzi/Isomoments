@@ -125,7 +125,6 @@ function handleScroll() {
 window.addEventListener('scroll', handleScroll);
 
 
-
 // Bottone scroll
 function scrollToTitle() {
     let mainElement = document.getElementById("main");
@@ -137,7 +136,6 @@ function scrollToTitle() {
         behavior: 'smooth'
     });
 }
-
 
 
 // Bottone attivo
