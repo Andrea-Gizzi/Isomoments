@@ -100,6 +100,7 @@ async function run() {
 
 
 // Gestore scroll
+// Gestore scroll
 function handleScroll() {
     const categories = document.querySelectorAll('.main_box');
     const windowHeight = window.innerHeight;
@@ -109,10 +110,8 @@ function handleScroll() {
         const middleOfCategory = rect.top + rect.height / 1.6;
 
         if (middleOfCategory >= 0 && middleOfCategory <= windowHeight) {
-            if (middleOfCategory === rect.top + rect.height / 1.6) {
-                category.querySelector('h1').style.color = 'black';
-                category.querySelector('p').style.color = 'black';
-            }
+            category.querySelector('h1').style.color = 'black';
+            category.querySelector('p').style.color = 'black';
         } else {
             category.querySelector('h1').style.color = '';
             category.querySelector('p').style.color = '';

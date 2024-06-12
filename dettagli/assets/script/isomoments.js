@@ -9,7 +9,7 @@ async function run() {
 
     // Categorie
     const labels = ['person', 'car', 'motorcycle', 'bus', 'truck', 'boat', 
-        'bench', 'dog', 'backpack', 'handbag', 'sports ball', 'kite', 'bottle', 
+        'bench', 'dog', 'backpack', 'handbag', 'bottle', 
         'wine glass', 'cup', 'bowl', 'cake', 'chair', 'potted plant', 
         'bed', 'dining table', 'tv', 'laptop', 'cell phone', 'book', 'clock'];
 
@@ -88,24 +88,28 @@ function load_containers(labels) {
     document.getElementById("main").innerHTML += cats;
 }
 
-// Funzione per gestire lo scroll
+
+// Gestore scroll
 function handleScroll() {
     const categories = document.querySelectorAll('.main_box');
     const windowHeight = window.innerHeight;
 
     categories.forEach(category => {
         const rect = category.getBoundingClientRect();
-        const middleOfCategory = rect.top + rect.height / 1;
+        const middleOfCategory = rect.top + rect.height / 2;
 
-        if (middleOfCategory > 0 && middleOfCategory < windowHeight) {
+        if (middleOfCategory >= 0 && middleOfCategory <= windowHeight) {
             category.querySelector('h1').style.color = 'black';
+            category.querySelector('p').style.color = 'black';
         } else {
             category.querySelector('h1').style.color = '';
+            category.querySelector('p').style.color = '';
         }
     });
 }
 
 window.addEventListener('scroll', handleScroll);
+
 
 // Bottone scroll
 function scrollToTitle() {
@@ -118,6 +122,7 @@ function scrollToTitle() {
         behavior: 'smooth'
     });
 }
+
 
 // Bottone attivo
 window.onload = function() {
