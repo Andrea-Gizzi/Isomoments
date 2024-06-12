@@ -42,9 +42,12 @@ async function run() {
         const minutiB = parseInt(elementoB.EXIF.Ora.M, 10);
         const secondiA = parseInt(elementoA.EXIF.Ora.S, 10);
         const secondiB = parseInt(elementoB.EXIF.Ora.S, 10);
-
-        if (oraA !== oraB) {
-            return oraA - oraB;
+    
+        const adjustedOraA = oraA < 8 ? oraA + 24 : oraA;
+        const adjustedOraB = oraB < 8 ? oraB + 24 : oraB;
+    
+        if (adjustedOraA !== adjustedOraB) {
+            return adjustedOraA - adjustedOraB;
         } else if (minutiA !== minutiB) {
             return minutiA - minutiB;
         } else {

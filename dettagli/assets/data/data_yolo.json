@@ -26350,16 +26350,6 @@
                 },
                 "label": "persona",
                 "prob": 91.1
-            },
-            {
-                "box": {
-                    "left": 514,
-                    "top": 1871,
-                    "width": 671,
-                    "height": 400
-                },
-                "label": "cellulare",
-                "prob": 86.7
             }
         ]
     },
