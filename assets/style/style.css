@@ -108,7 +108,7 @@ header {
 /*MAIN*/
 main {
     padding-top: 85px;
-    height: 100vh;
+    height: auto;
     width: 100vw;
     bottom: 0;
     left: 0;
@@ -122,7 +122,7 @@ main {
 img.image {
     width: auto;
     max-height: 120px;
-    height: 8%; 
+    height: 8vh; 
     border: none;
     padding: 0;
     margin: 0;
@@ -146,4 +146,28 @@ img.image {
     padding: 20px 60px;
     border-radius: 5px;
     z-index: -1;
+}
+
+
+
+/*FOOTER*/
+footer {
+    font-family: "Alfabet";
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+    height: auto;
+    background-color: rgb(20, 20, 20);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+
+.footer-text-1 {
+    color: white;
+    grid-column: 1/6;
+    font-size: 14px;
+    text-align: left;  
 }
