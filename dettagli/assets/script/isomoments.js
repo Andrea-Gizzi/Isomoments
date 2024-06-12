@@ -93,14 +93,14 @@ function load_containers(labels) {
 
 // Gestore scroll
 function handleScroll() {
-    const categories = document.querySelectorAll('.main_box');
-    const windowHeight = window.innerHeight;
+    const categories = document.querySelectorAll('.info');
+    const windowHeight = window.innerHeight - 200;
 
     categories.forEach(category => {
         const rect = category.getBoundingClientRect();
-        const middleOfCategory = rect.top + rect.height / 2;
+        const topOfCategory = rect.top;
 
-        if (middleOfCategory >= 0 && middleOfCategory <= windowHeight) {
+        if (topOfCategory >= 0 && topOfCategory <= windowHeight) {
             category.querySelector('h1').style.color = 'black';
             category.querySelector('p').style.color = 'black';
         } else {
