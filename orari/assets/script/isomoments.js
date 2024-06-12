@@ -66,7 +66,7 @@ async function run() {
             }
         }
 
-        cats += "<div class='main_box'>";
+        cats += "<div class='main_box" + (i === 0 ? " first-category" : "") + "'>";
         cats += '<div class="info">'
         cats += "<h1>" + mia_ora + "</h1>";
         cats += "<p id='image_count" + categorie[i] + "'>" + imageCount + " foto</p>";

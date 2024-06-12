@@ -77,7 +77,7 @@ function load_containers(labels) {
     let cats = "";
     for (let i = 0; i < labels.length; i++) {
         const label = labels[i];
-        cats += "<div class='main_box'>";
+        cats += "<div class='main_box" + (i === 0 ? " first-category" : "") + "'>";
         cats += '<div class="info">'
         cats += "<h1>" + label + "</h1>";
         cats += "<p id='image_count" + label + "'>0 foto</p>";

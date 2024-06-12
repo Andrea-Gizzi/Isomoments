@@ -116,6 +116,10 @@ main {
     grid-column-gap: 20px;
 }
 
+.main_box.first-category {
+    border-top: none;
+}
+
 .info {
     grid-column: 1 / span 2;
 }
