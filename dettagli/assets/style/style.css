@@ -191,25 +191,24 @@ footer {
 
 
 /*RESPONSIVE*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
-    main {
-        padding-top: 80px;
-        margin-top: 93px;
-        margin-bottom: 40px;
-        z-index: 0;
-    }
-    
     header {
         padding: 10px 20px;
     }
-
 
     .title{
         font-size: 70px;
         margin-bottom: 40px;
         padding-right: 20px;
         padding-left: 20px;
+    }
+
+    main {
+        padding-top: 80px;
+        margin-top: 93px;
+        margin-bottom: 40px;
+        z-index: 0;
     }
 
     .main_box {
@@ -223,7 +222,6 @@ footer {
         margin-bottom: 20px;
     }
 
-
     .box {
         flex-grow: 1;
     }
@@ -235,12 +233,16 @@ footer {
         margin: 1px;
     }
 
-    footer {
-        margin-top: 100px;
-    }
-
-
     .fixed-text {
         padding: 20px 20px;
+    }
+    
+    footer {
+        margin-top: 100px;
+        margin-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 40px;
+        padding-bottom: 60px;
     }
 }
