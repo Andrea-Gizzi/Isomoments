@@ -17,7 +17,7 @@ Nel mio caso, è stato realizzato un archivio interattivo contenente tutte le fo
 Nel progetto, non mi sono basato su un modello specifico come riferimento progettuale; piuttosto, ho dedicato tempo a riflettere su come inserire i diversi contenuti in modo che soddisfacessero il mio obiettivo, risultando chiaro e facilmente comprensibile. L'aspetto principale è stato selezionare un approccio visivo che valorizzasse ogni singola foto e che rappresentasse la mia giornata, invitando l'utente a scoprirla. L'interfaccia doveva essere funzionale, caratteristica e interattiva, offrendo un'esperienza coinvolgente.
 
 
-## Design dell’interfraccia e modalià di interazione
+## Design dell’interfaccia e modalià di interazione
 Il design dell'interfaccia è semplice e intuitivo. Ogni scelta è stata fatta per aumentare l'interazione dell'utente, permettendogli di scoprire il contenuto attraverso una buona ergonomia e un senso di orientamento chiaro. L'interfaccia mantiene una struttura uniforme su tutte le pagine:
 
 - Header: situato nella parte superiore, include bottoni intuitivi per la navigazione e per il ritorno alla pagina principale del corso.
