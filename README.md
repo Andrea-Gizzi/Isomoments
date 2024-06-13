@@ -71,4 +71,4 @@ function convertISOtoOpacity(iso) {
 ```
 
 ## Target e contesto d’uso
-L'interfaccia è stata ideata originariamente come analisi personale delle mie foto, ma si è evoluta fino a diventare una rappresentazione della mia giornata e della mia personalità. È particolarmente adatta per amici, parenti e persone curiose sulla gestione dell'archivio e sul mio modo di vivere.
+L'interfaccia è stata ideata originariamente come analisi personale delle mie foto, ma si è evoluta fino a diventare una rappresentazione della mia giornata e della mia personalità. È particolarmente adatta per amici, parenti e persone curiose sulla gestione dell'archivio e sul mio modo di vivere. Il contesto d'uso principale è la condivisione in ambito privato e sociale, dove può servire come mezzo per raccontare e condividere esperienze visive in modo interattivo e coinvolgente. Inoltre, può essere utilizzata come strumento per esplorare la distribuzione temporale delle mie attività fotografiche.
