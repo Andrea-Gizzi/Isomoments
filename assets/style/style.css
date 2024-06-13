@@ -171,3 +171,61 @@ footer {
 
 
 /*RESPONSIVE*/
+@media screen and (max-width: 1024px) {
+
+    header {
+        padding: 10px 20px;
+    }
+
+    .title{
+        font-size: 70px;
+        margin-bottom: 40px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    main {
+        padding-top: 85px;
+        z-index: 0;
+    }
+
+    .main_box {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .info {
+        order: -1;
+        margin-bottom: 20px;
+    }
+
+    .box {
+        flex-grow: 1;
+    }
+
+    img {
+        display: block;
+        float: left;
+        height: 6vh;
+        margin: 1px;
+    }
+
+    .image-container .image:active {
+        filter: none !important;
+        opacity: 1 !important ;
+    }
+
+    .fixed-text {
+        padding: 20px 20px;
+    }
+    
+    footer {
+        margin-top: 100px;
+        margin-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+}
