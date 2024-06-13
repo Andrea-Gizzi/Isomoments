@@ -6,7 +6,7 @@ Elaborato 3: XL
 
 # ISOMOMENTS
 Autore: Gizzi Andrea  
-[MediaPipe demo-ES6]([https://andrea-gizzi.github.io/F0NTZ](https://andrea-gizzi.github.io/Isomoments/)
+[ISOMOMENTS](https://andrea-gizzi.github.io/Isomoments/)
 
 SCIVERLO SENZA SPIEGARE CHE HO FATT UNA RICERCA ECC. DEVO ESSERE PIU OGGETTIVO SUL PROTOTIPO
 ## Introduzione e tema
