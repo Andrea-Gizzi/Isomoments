@@ -22,6 +22,7 @@ Il design dell'interfaccia è semplice e intuitivo. Ogni scelta è stata orienta
 
 - Header: situato nella parte superiore, include bottoni intuitivi per la navigazione e per il ritorno alla pagina principale del corso.
 - Footer: posizionato nella parte inferiore, contiene informazioni sul corso, il nome dell'interfaccia e la sitografia.
+  
 L'interfaccia offre diverse modalità di interazione a seconda della pagina selezionata:
 
 - Galleria: raccoglie tutte le fotografie presenti nell'archivio, presentandole in una galleria con scorrimento verticale e il titolo dell'interfaccia.
