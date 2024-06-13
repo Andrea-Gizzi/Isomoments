@@ -2,7 +2,7 @@ SUPSI 2022-23
 Corso d’interaction design, CV427.01  
 Docenti: A. Gysin, G. Profeta  
 
-Elaborato 3: XL
+Elaborato 2: XL
 
 # ISOMOMENTS
 Autore: Gizzi Andrea  
@@ -14,13 +14,21 @@ La consegna consisteva nella progettazione di un sistema di interfaccia web inte
 Nel mio caso, è stato realizzato un archivio interattivo contenente tutte le fotografie presenti nella galleria del mio smartphone. Le immagini sono organizzate in base alle fasce orarie di cattura e analizzate utilizzando i dati ISO per rivelare i pattern di scatto preferiti durante la giornata. L'obiettivo principale dell'interfaccia è fornire una rappresentazione visiva e analitica delle mie abitudini fotografiche quotidiane, unendo estetica e dati per una comprensione più profonda del mio uso personale della fotografia.
 
 ## Riferimenti progettuali
-Dolor sit amet consectetur adipiscing elit duis tristique. Sociis natoque penatibus et magnis dis parturient montes nascetur. Est sit amet facilisis magna. Tellus rutrum tellus pellentesque eu. Dictum sit amet justo donec enim. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Sed faucibus turpis in eu mi bibendum neque egestas congue. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Dolor magna eget est lorem ipsum dolor. Sit amet mattis vulputate enim nulla. Elit pellentesque habitant morbi tristique senectus et. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa.
+Nel progetto, non mi sono basato su un modello specifico come riferimento progettuale; piuttosto, ho dedicato tempo a riflettere su come inserire i diversi contenuti in modo che soddisfacessero il mio obiettivo, risultando chiaro e facilmente comprensibile. L'aspetto principale è stato selezionare un approccio visivo che valorizzasse ogni singola foto e che rappresentasse la mia giornata, invitando l'utente a scoprirla. L'interfaccia doveva essere funzionale, caratteristica e interattiva, offrendo un'esperienza coinvolgente.
 
 
 ## Design dell’interfraccia e modalià di interazione
-Facilisis magna etiam tempor orci eu. Felis donec et odio pellentesque diam volutpat commodo. Dis parturient montes nascetur ridiculus mus mauris vitae. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Accumsan sit amet nulla facilisi. Ultricies leo integer malesuada nunc vel risus. Est lorem ipsum dolor sit. Ultrices neque ornare aenean euismod elementum nisi. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. Arcu dictum varius duis at consectetur lorem donec massa sapien. Pellentesque habitant morbi tristique senectus. Turpis massa sed elementum tempus egestas sed sed risus pretium. Eros donec ac odio tempor orci. Pellentesque id nibh tortor id aliquet lectus. Risus feugiat in ante metus dictum at. Quam pellentesque nec nam aliquam sem et tortor consequat id. Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Sit amet dictum sit amet justo donec enim.
+Il design dell'interfaccia è semplice e intuitivo. Ogni scelta è stata fatta per aumentare l'interazione dell'utente, permettendogli di scoprire il contenuto attraverso una buona ergonomia e un senso di orientamento chiaro. L'interfaccia mantiene una struttura uniforme su tutte le pagine:
 
-[<img src="doc/cards.gif" width="500" alt="Magic trick">]()
+- Header: situato nella parte superiore, include bottoni intuitivi per la navigazione e per il ritorno alla pagina principale del corso.
+- Footer: collocato nella parte inferiore, contiene informazioni sul corso, il nome dell'interfaccia e tutta la sitografia.
+L'interfaccia supporta diverse modalità di interazione a seconda della pagina selezionata:
+
+- Galleria: raccoglie tutte le fotografie presenti nell'archivio, presentandole in una galleria con scorrimento verticale e il titolo dell'interfaccia.
+- Orari: utilizza un layout suddiviso in categorie per evidenziare le immagini scattate in diverse fasce orarie.
+- Dettagli: mostra i dettagli delle fotografie, seguendo il layout della pagina Orari, con categorie riferite a tipi di elementi.
+  
+Questa struttura uniforme e le modalità di interazione differenziate rendono l'interfaccia accattivante e accessibile, promuovendo una navigazione chiara e informativa per gli utenti. Un filtro applicato sopra le immagini aiuta l'utente a scoprire le immagini e rappresenta visivamente gli ISO durante la mia giornata, creando una sfumatura che va dal mattino alla sera. I dettagli non utilizzano questo filtro poiché la loro funzione è mostrare gli elementi senza una collocazione temporale.
 
 
 ## Tecnologia usata
