@@ -71,6 +71,4 @@ function convertISOtoOpacity(iso) {
 ```
 
 ## Target e contesto d’uso
-Sed enim ut sem viverra aliquet eget sit. Iaculis at erat pellentesque adipiscing commodo. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. At tempor commodo ullamcorper a lacus vestibulum sed arcu. Ipsum faucibus vitae aliquet nec ullamcorper sit. Tempus quam pellentesque nec nam aliquam sem et tortor. Turpis egestas sed tempus urna et pharetra pharetra massa. Ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel.
-
-[<img src="doc/munari.jpg" width="300" alt="Supplemento al dizionario italiano">]()
+L'interfaccia è stata ideata originariamente come analisi personale delle mie foto, ma si è evoluta fino a diventare una rappresentazione della mia giornata e della mia personalità. È particolarmente adatta per amici, parenti e persone curiose sulla gestione dell'archivio e sul mio modo di vivere.
