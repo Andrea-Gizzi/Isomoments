@@ -4,7 +4,7 @@ Docenti: A. Gysin, G. Profeta
 
 Elaborato 1: Intermedio
 
-# A.C.1D
+# ISOMOMENTS
 Autore: Gizzi Andrea  
 [MediaPipe demo-ES6](https://andrea-gizzi.github.io/F0NTZ/)
 
