@@ -8,11 +8,10 @@ Elaborato 3: XL
 Autore: Gizzi Andrea  
 [ISOMOMENTS](https://andrea-gizzi.github.io/Isomoments/)
 
-SCIVERLO SENZA SPIEGARE CHE HO FATT UNA RICERCA ECC. DEVO ESSERE PIU OGGETTIVO SUL PROTOTIPO
 ## Introduzione e tema
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Congue eu consequat ac felis donec. Nisi est sit amet facilisis magna etiam tempor. Nisl nisi scelerisque eu ultrices vitae. Id aliquet lectus proin nibh nisl. Urna nec tincidunt praesent semper feugiat nibh. Imperdiet dui accumsan sit amet nulla facilisi morbi. Aliquet enim tortor at auctor urna nunc. Id cursus metus aliquam eleifend mi. Ultricies lacus sed turpis tincidunt id aliquet risus feugiat in. Odio morbi quis commodo odio aenean sed. Turpis cursus in hac habitasse. Sed enim ut sem viverra aliquet eget sit. Iaculis at erat pellentesque adipiscing commodo. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. At tempor commodo ullamcorper a lacus vestibulum sed arcu. Ipsum faucibus vitae aliquet nec ullamcorper sit. Tempus quam pellentesque nec nam aliquam sem et tortor. Turpis egestas sed tempus urna et pharetra pharetra massa. Ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel.
+La consegna consisteva nella progettazione di un sistema di interfaccia web interattiva che permetta di visualizzare ed esplorare 1000 foto (o più) tra quelli presenti nell'archivio fotografico del proprio smartphone.
 
-https://github.com/ixd-supsi/2024/raw/main/templates/template_README/doc/sdf_test.mp4
+Nel mio caso, è stato realizzato un archivio interattivo contenente tutte le fotografie presenti nella galleria del mio smartphone. Le immagini sono organizzate in base alle fasce orarie di cattura e analizzate utilizzando i dati ISO per rivelare i pattern di scatto preferiti durante la giornata. L'obiettivo principale dell'interfaccia è fornire una rappresentazione visiva e analitica delle mie abitudini fotografiche quotidiane, unendo estetica e dati per una comprensione più profonda del mio uso personale della fotografia.
 
 ## Riferimenti progettuali
 Dolor sit amet consectetur adipiscing elit duis tristique. Sociis natoque penatibus et magnis dis parturient montes nascetur. Est sit amet facilisis magna. Tellus rutrum tellus pellentesque eu. Dictum sit amet justo donec enim. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Sed faucibus turpis in eu mi bibendum neque egestas congue. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Dolor magna eget est lorem ipsum dolor. Sit amet mattis vulputate enim nulla. Elit pellentesque habitant morbi tristique senectus et. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa.
