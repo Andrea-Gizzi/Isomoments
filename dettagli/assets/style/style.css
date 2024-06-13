@@ -179,7 +179,7 @@ footer {
     padding-top: 40px;
     padding-bottom: 60px;
     width: 100%;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .footer-text-1 {
@@ -226,7 +226,7 @@ footer {
         flex-grow: 1;
     }
 
-    img {
+    img.image {
         display: block;
         float: left;
         height: 6vh;
