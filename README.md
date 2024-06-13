@@ -32,30 +32,42 @@ Questa struttura uniforme e le modalità di interazione differenziate rendono l'
 
 
 ## Tecnologia usata
-Nunc consequat interdum varius sit amet mattis vulputate. Vehicula ipsum a arcu cursus vitae congue. Odio ut sem nulla pharetra. Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus. Nunc aliquet bibendum enim facilisis gravida neque convallis a. Lacus sed turpis tincidunt id aliquet risus feugiat.
+ La particolarità dell'interfaccia è il forte invito all'utente a esplorare tutte le immagini, nascoste grazie a un filtro basato sulla scala di grigi e sull'opacità che varia in base agli ISO della singola immagine. Questo crea un'estetica invitante e rafforza i momenti della giornata, dal mattino alla sera, rendendo così l'interfaccia unica e identificativa.
 
 
 ```JavaScript
-const image = new Image();
-image.onload = () => {
-	gl.bindTexture(gl.TEXTURE_2D, texture);
-	gl.texImage2D(
-		gl.TEXTURE_2D,
-		level,
-		internalFormat,
-		srcFormat,
-		srcType,
-		image
-	);
-	if (isPowerOf2(image.width) && isPowerOf2(image.height)) {
-		gl.generateMipmap(gl.TEXTURE_2D);
-	} else {
-		gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
-		gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
-		gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
-	}
-};
-image.src = url;
+// Filtro ISO
+function convertISOtoOpacity(iso) {
+    const minISO = 40;
+    const maxISO = 1600;
+
+    const clampedISO = Math.min(Math.max(iso, minISO), maxISO);
+    const normalizedISO = (clampedISO - minISO) / (maxISO - minISO);
+
+    const minOpacity = 0.04;
+    const maxOpacity = 1;
+
+    const opacity = minOpacity + (normalizedISO * (maxOpacity - minOpacity));
+    return opacity;
+}
+
+//...
+
+    // Caricamento immagini
+    for (let i = 0; i < data.length; i++) {
+        let output = "";
+        let exif = data[i].EXIF;
+        const ora = parseInt(exif.Ora.H, 10);
+        const container = document.getElementById(ora);
+
+        const imagePath = "./assets/imgs/img_256/" + data[i].FileName + ".jpg";
+
+        output += "<div class='image-container'>";
+        output += "<img src='" + imagePath + "' alt='Imm' style='filter: grayscale(100%); opacity: " + convertISOtoOpacity(exif.ISO) + ";' class='image'>";
+        output += "</div>";
+
+        container.innerHTML += output;
+    }
 ```
 
 ## Target e contesto d’uso
