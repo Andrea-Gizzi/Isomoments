@@ -18,21 +18,21 @@ Nel progetto, non mi sono basato su un modello specifico come riferimento proget
 
 
 ## Design dell’interfaccia e modalià di interazione
-Il design dell'interfaccia è semplice e intuitivo. Ogni scelta è stata fatta per aumentare l'interazione dell'utente, permettendogli di scoprire il contenuto mediante una buona ergonomia e un senso di orientamento chiaro. L'interfaccia mantiene una struttura uniforme su tutte le pagine:
+Il design dell'interfaccia è semplice e intuitivo. Ogni scelta è stata orientata a migliorare l'interazione dell'utente, facilitando la scoperta del contenuto attraverso una buona ergonomia e un chiaro orientamento.  L'interfaccia mantiene una struttura uniforme su tutte le pagine:
 
 - Header: situato nella parte superiore, include bottoni intuitivi per la navigazione e per il ritorno alla pagina principale del corso.
-- Footer: collocato nella parte inferiore, contiene informazioni sul corso, il nome dell'interfaccia e tutta la sitografia.
-L'interfaccia supporta diverse modalità di interazione a seconda della pagina selezionata:
+- Footer: posizionato nella parte inferiore, contiene informazioni sul corso, il nome dell'interfaccia e la sitografia.
+L'interfaccia offre diverse modalità di interazione a seconda della pagina selezionata:
 
 - Galleria: raccoglie tutte le fotografie presenti nell'archivio, presentandole in una galleria con scorrimento verticale e il titolo dell'interfaccia.
 - Orari: utilizza un layout suddiviso in categorie per evidenziare le immagini scattate in diverse fasce orarie.
-- Dettagli: mostra i dettagli delle fotografie, seguendo il layout della pagina Orari, con categorie riferite a tipi di elementi.
+- Dettagli: mostra i dettagli delle fotografie seguendo il layout della pagina Orari, con categorie riferite a tipi di elementi.
   
 Questa struttura uniforme e le modalità di interazione differenziate rendono l'interfaccia accattivante e accessibile, promuovendo una navigazione chiara e informativa per gli utenti. Un filtro applicato sopra le immagini aiuta l'utente a scoprire le immagini e rappresenta visivamente gli ISO durante la mia giornata, creando una sfumatura che va dal mattino alla sera. I dettagli non utilizzano questo filtro poiché la loro funzione è mostrare gli elementi senza una collocazione temporale.
 
 
 ## Tecnologia usata
- La particolarità dell'interfaccia è il forte invito all'utente a esplorare tutte le immagini, nascoste grazie a un filtro basato sulla scala di grigi e sull'opacità che varia in base agli ISO della singola immagine. Questo crea un'estetica invitante e rafforza i momenti della giornata, dal mattino alla sera, rendendo così l'interfaccia unica e identificativa.
+La peculiarità dell'interfaccia è l'invito forte all'utente di esplorare tutte le immagini, nascoste grazie a un filtro basato sulla scala di grigi e sull'opacità che varia in base agli ISO di ogni immagine. Questo crea un'estetica invitante e rafforza i momenti della giornata, dal mattino alla sera, rendendo così l'interfaccia unica e identificativa.
 
 
 ```JavaScript
